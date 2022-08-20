@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: VarelaRound;
+        }
+
+@font-face {
+    font-family: Hairy;
+    src: url(HairyBeard-8M8an.ttf);
+        }
+
+@font-face {
+    font-family: VarelaRound;
+    src: url(VarelaRound-Regular.ttf);
+}
+
+body {
+    display: flex;
+    }
+
+.bg {
+background-image: url("background-image.jpg");
+height: 100%;
+width: 700px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+    }
+
+.logo {
+    color: white;
+    font-family: Hairy;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    text-align: center;
+    font-size: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    margin-top: 40%;
+}
+
+.credits {
+    margin-top: auto;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
